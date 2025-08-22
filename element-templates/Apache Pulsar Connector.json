@@ -1,0 +1,156 @@
+{
+  "$schema": "https://unpkg.com/@camunda/zeebe-element-templates-json-schema/resources/schema.json",
+  "name": "Apache Pulsar Connector",
+  "id": "Template_1oepc2m",
+  "version": 2,
+  "description": "This custom connector links Camunda 8 to Apache Pulsar, allowing workflows to publish messages.",
+  "icon": {
+    "contents": "data:image/png;base64,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"
+  },
+  "appliesTo": [
+    "bpmn:Task"
+  ],
+  "elementType": {
+    "value": "bpmn:ServiceTask"
+  },
+  "category": {
+    "id": "connectors",
+    "name": "Connectors"
+  },
+  "groups": [
+    {
+      "id": "compose",
+      "label": "Compose"
+    },
+    {
+      "id": "output",
+      "label": "Output mapping"
+    },
+    {
+      "id": "error",
+      "label": "Error handling"
+    },
+    {
+      "id": "retries",
+      "label": "Retries"
+    }
+  ],
+  "properties": [
+    {
+      "value": "io.camunda:template:1",
+      "binding": {
+        "property": "type",
+        "type": "zeebe:taskDefinition"
+      },
+      "type": "Hidden"
+    },
+    {
+      "id": "url",
+      "label": "Pulsar Server URL",
+      "description": "Use Pulsar Server URL here. Default URL is pulsar://localhost:6650",
+      "optional": false,
+      "constraints": {
+        "notEmpty": true
+      },
+      "feel": "optional",
+      "group": "compose",
+      "binding": {
+        "name": "url",
+        "type": "zeebe:input"
+      },
+      "type": "Text"
+    },
+    {
+      "id": "Topic",
+      "label": "Topic",
+      "description": "Create the Topic or Use the Existing Topic here.",
+      "optional": false,
+      "constraints": {
+        "notEmpty": true
+      },
+      "feel": "optional",
+      "group": "compose",
+      "binding": {
+        "name": "Topic",
+        "type": "zeebe:input"
+      },
+      "type": "Text"
+    },
+    {
+      "id": "message",
+      "label": "Message",
+      "description": "Mention the message which you want to publish.",
+      "optional": false,
+      "constraints": {
+        "notEmpty": true
+      },
+      "feel": "optional",
+      "group": "compose",
+      "binding": {
+        "name": "message",
+        "type": "zeebe:input"
+      },
+      "type": "Text"
+    },
+    {
+      "id": "resultVariable",
+      "label": "Result variable",
+      "description": "Name of variable to store the response in",
+      "group": "output",
+      "binding": {
+        "key": "resultVariable",
+        "type": "zeebe:taskHeader"
+      },
+      "type": "String"
+    },
+    {
+      "id": "resultExpression",
+      "label": "Result expression",
+      "description": "Expression to map the response into process variables",
+      "feel": "required",
+      "group": "output",
+      "binding": {
+        "key": "resultExpression",
+        "type": "zeebe:taskHeader"
+      },
+      "type": "Text"
+    },
+    {
+      "id": "errorExpression",
+      "label": "Error expression",
+      "description": "Expression to handle errors. Details in the <a href=\"https://docs.camunda.io/docs/components/connectors/use-connectors/\" target=\"_blank\">documentation</a>.",
+      "feel": "required",
+      "group": "error",
+      "binding": {
+        "key": "errorExpression",
+        "type": "zeebe:taskHeader"
+      },
+      "type": "Text"
+    },
+    {
+      "id": "retryCount",
+      "label": "Retries",
+      "description": "Number of retries",
+      "value": "3",
+      "feel": "optional",
+      "group": "retries",
+      "binding": {
+        "property": "retries",
+        "type": "zeebe:taskDefinition"
+      },
+      "type": "String"
+    },
+    {
+      "id": "retryBackoff",
+      "label": "Retry backoff",
+      "description": "ISO-8601 duration to wait between retries",
+      "value": "PT0S",
+      "group": "retries",
+      "binding": {
+        "key": "retryBackoff",
+        "type": "zeebe:taskHeader"
+      },
+      "type": "String"
+    }
+  ]
+}
