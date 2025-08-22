@@ -123,7 +123,7 @@ docker compose -f docker-compose-core.yaml up
 ### Launching Your Connector
 
 1. Run `io.camunda.pulsar.LocalConnectorRuntime` to start your connector.
-2. Create and initiate a process that utilizes your newly created connector within the Camunda Modeler. ![Connector in Camunda Modeler](img/img.png)
+2. Create and initiate a process that utilizes your newly created connector within the Camunda Modeler. ![Connector in Camunda Modeler](img/Pulsar_Demo.png)
 3. Verify that the process is running smoothly by accessing Camunda Operate at [localhost:8081](http://localhost:8081).
 
 Follow these instructions to test and use your custom Camunda connector effectively.
